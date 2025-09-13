@@ -49,20 +49,53 @@ Nelson Enrrique Conde Tarazona - 1152391
 
 10. DOM básico: cambio de color con botones (rojo, verde, azul).
 
+    ![alt text](capturas/punto10-1.png)
+    ![alt text](capturas/punto10-2.png)
+    ![alt text](capturas/punto10-3.png)
+
 11. DOM avanzado: lista de notas con validación de input.
 
-12. Validación de formulario en contacto.html con mensajes de error.
+    ![alt text](capturas/punto11-1.png)
+    ![alt text](capturas/punto11-2.png)
+    ![alt text](capturas/punto11-3.png)
 
-13. Mensaje de éxito al enviar formulario válido.
+12. 13. Validación de formulario en contacto.html con mensajes de error con Mensaje de éxito al enviar formulario válido.
+
+    ![alt text](capturas/punto12-1.png)
+    ![alt text](capturas/punto12-2.png)
+    ![alt text](capturas/punto12-3.png)
+
 
 14. Buscador en servicios.html con coincidencias en tiempo real.
 
+    ![alt text](capturas/punto14-1.png)
+    ![alt text](capturas/punto14-2.png)
+    ![alt text](capturas/punto14-3.png)
+
 15. Función evaluarNumero(n) con if/else.
+
+    ![alt text](capturas/punto15-1.png)
+    ![alt text](capturas/punto15-2.png)
+    ![alt text](capturas/punto15-3.png)
 
 16. Función obtenerDia(numero) con switch.
 
+    ![alt text](capturas/punto16-1.png)
+    Lo obtenia del sistema al principio pero no aplicaba el switch
+    ![alt text](capturas/punto16-2.png)
+    ![alt text](capturas/punto16-3.png)
+
 17. Renderizar perfil en acerca.html usando template string.
+
+    ![alt text](capturas/punto17-1.png)
+    ![alt text](capturas/punto17-2.png)
 
 18. LocalStorage para visitas.
 
+    Lo use ya en el punto 7.
+
 19. Clase Util con método formatearMoneda().
+
+    ![alt text](capturas/punto19-1.png)
+    ![alt text](capturas/punto19-2.png)
+    ![alt text](capturas/punto19-3.png)

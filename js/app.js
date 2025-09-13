@@ -155,18 +155,17 @@ function evaluarNumero(n) {
     return "El número es cero";
 }
 
-// 16. FUNCIÓN obtenerDia() DEL SISTEMA
-function obtenerDia() {
-    const numero = new Date().getDay(); // 0=Domingo ... 6=Sábado
+// 16. FUNCIÓN obtenerDia() 
+function obtenerDia(numero) {
     switch (numero) {
-        case 0: return "Domingo";
         case 1: return "Lunes";
         case 2: return "Martes";
         case 3: return "Miércoles";
         case 4: return "Jueves";
         case 5: return "Viernes";
         case 6: return "Sábado";
-        default: return "Error al obtener el día";
+        case 7: return "Domingo";
+        default: return "Número inválido (ingrese 1 a 7)";
     }
 }
 
@@ -212,7 +211,8 @@ if (btnEvaluarNumero) {
 
 if (btnObtenerDia) {
     btnObtenerDia.addEventListener("click", () => {
-        document.getElementById("resultadoDia").textContent = obtenerDia();
+        const numero = parseInt(document.getElementById("numeroDia").value);
+        document.getElementById("resultadoDia").textContent = obtenerDia(numero);
     });
 }
 
