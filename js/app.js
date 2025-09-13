@@ -225,11 +225,23 @@ if (btnFormatearMoneda) {
 }
 
 // INICIALIZACIÓN DE PÁGINA
+// Activar menú en todas las páginas
 activarMenu();
 
+// Si existe el elemento de reloj, actualizar cada segundo
+if (HORA_RELOJ) {
+    mostrarHora(); // para que muestre la hora inmediatamente
+    setInterval(mostrarHora, 1000);
+}
+
+// Solo para index.html: visitas y bienvenida
 if (ruta.includes("index.html")) {
+    usuarioActivo = "Invitado";
+    esMovil = /Mobi|Android/i.test(navigator.userAgent);
+
     mostrarBienvenida();
     cargarVisitas();
+
     if (BTN_VISITAS) BTN_VISITAS.addEventListener("click", actualizarVistas);
-    setInterval(mostrarHora, 1000);
+    console.log(`Detectado: ${esMovil ? "Móvil" : "Escritorio"}`);
 }

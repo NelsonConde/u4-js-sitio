@@ -43,6 +43,10 @@ Nelson Enrrique Conde Tarazona - 1152391
 
 9. Navegación activa usando data-page y clase activo.
 
+    ![alt text](capturas/punto9-1.png)
+    ![alt text](capturas/punto9-2.png)
+    ![alt text](capturas/punto9-3.png)
+
 10. DOM básico: cambio de color con botones (rojo, verde, azul).
 
 11. DOM avanzado: lista de notas con validación de input.
