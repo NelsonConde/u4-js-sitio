@@ -59,11 +59,12 @@ Nelson Enrrique Conde Tarazona - 1152391
     ![alt text](capturas/punto11-2.png)
     ![alt text](capturas/punto11-3.png)
 
-12. 13. Validación de formulario en contacto.html con mensajes de error con Mensaje de éxito al enviar formulario válido.
+12. Validación de formulario en contacto.html con mensajes de error con Mensaje de éxito al enviar formulario válido (13).
 
     ![alt text](capturas/punto12-1.png)
     ![alt text](capturas/punto12-2.png)
     ![alt text](capturas/punto12-3.png)
+    ![alt text](capturas/punto12-4.png)
 
 
 14. Buscador en servicios.html con coincidencias en tiempo real.
