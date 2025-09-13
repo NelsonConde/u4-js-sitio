@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { 
+    height: 100%; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex; 
+    flex-direction: column;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+}
+
+nav ul li a.activo {
+    background: #fff;
+    color: #333;
+    border-radius: 4px;
+}
+
+main {
+    padding: 2rem;
+    flex: 1;
+}
+
+#listaServicios {
+    margin-left: 20px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+#horaReloj {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.color-btn[data-color="red"] { background: #e74c3c; color: #fff; }
+.color-btn[data-color="green"] { background: #27ae60; color: #fff; }
+.color-btn[data-color="blue"] { background: #2980b9; color: #fff; }
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+#mensajeExito {
+    color: green;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
